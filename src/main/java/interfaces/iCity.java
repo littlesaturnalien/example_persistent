@@ -9,4 +9,5 @@ public interface iCity {
     public City getCityByName(String name);
     public void delete(City city);
     public void update(City city);
+    public List<City> getAllCities();
 }

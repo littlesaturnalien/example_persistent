@@ -24,4 +24,8 @@ public class City extends BaseEntity {
 
     @Column(nullable = false, columnDefinition = "boolean default true")
     private boolean state = true;
+
+    public boolean getState() {
+        return state;
+    }
 }

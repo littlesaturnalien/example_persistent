@@ -9,4 +9,5 @@ public interface iStudent {
     public Student getStudentByCif(String cif);
     public void delete(Student student);
     public void update(Student student);
+    public List<Student> getAllStudents();
 }
